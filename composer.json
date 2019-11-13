@@ -1,0 +1,33 @@
+{
+    "name": "aetiom/bfw-scribe",
+    "type": "library",
+    "description": "Structured content manager module for BFW",
+    "keywords": ["collection", "container", "langages", "data", "content", "module", "bfw"],
+    "homepage": "https://github.com/aetiom/bfw-scribe",
+    "time": "2019-10-28",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+        "name": "Alexandre Moittié / Aetiom",
+        "homepage": "https://github.com/aetiom",
+        "email": "aetiom@protonmail.com"
+        }
+    ],
+    "support": {
+        "email": "aetiom@protonmail.com",
+        "issues": "https://github.com/aetiom/bfw-scribe/issues",
+        "source": "https://github.com/aetiom/bfw-scribe"
+    },
+    "require": {
+        "bulton-fr/bfw": "~3.0.0-RC11@RC",
+        "aetiom/php-utils": "dev-dev"
+    },
+    "suggest": {
+        "twig/twig": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BfwScribe\\": "src/"
+        }
+    }
+}
