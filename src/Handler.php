@@ -110,7 +110,7 @@ class Handler
      */
     public function getCollection(string $name):\BfwScribe\Collection
     {
-        return $this->collection[$name];
+        return $this->collections[$name];
     }
 
 }
